@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youtube Video Player Page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="dist/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="mynav navbar navbar-expand-lg bg-light pt-0 pb-0 fixed-top">
+        <div class="container-fluid pt-0 pb-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pb-0 pt-0" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-lg-0" style="width: 20%;">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/512/400/400425.png" alt="" width="100" height="50">
+                    </a>
+                </ul>
+
+                <form class="d-flex" role="search" style="width: 60%;">
+                    <input class="form-control me-2 no-border-radius" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button title="click to search video" class="btn btn-outline-secondary no-border-radius" type="submit">Search</button>
+                </form>
+                
+
+                <ul class="navbar-nav me-end mb-2 mb-lg-0 d-flex flex-end" style="width: 20%;">
+                    <span title="Search with your voice" class="cmic">
+                       <i class="fa fa-microphone"></i>
+                    </span>
+
+                    <span title="Notifications" class="cmic">
+                        <span class="fa fa-bell"></span>
+                     </span>
+                    
+                    <li class="nav-item dropdown" style="display: none;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container mb-5">
+        <div class="row vbody">
+            <div class="col-md-8 vpbody">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/V74l_zS1x8E"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="mt-2">
+                    <p>Contributing to Open Source Part I: The Easy Way</p>
+                    <p class="text-muted">67,254 views &#8226; Feb 28, 2014
+                    </p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img class="hicon"
+                                src="https://yt3.ggpht.com/ytc/AKedOLQWQsZo8xQGCXc6BgOVTPy2tQD7n9JjHat05g=s48-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <p>The Odin Project <br><span class="text-muted">1.1K subscribers</span>
+                            </p>
+
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-danger no-border-radius">SUBSCRIBE</button>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-11">
+                            <p>How do you contribute to open source? In this video, I'll describe the easiest way to
+                                make a
+                                simple contribution to an open source project -- without using the command line, a text
+                                editor, "forking a repo", or even touching Git outside of Github. I'll also describe
+                                what
+                                kinds of contributions open source software projects are typically looking for. As an
+                                example, I use submitting a student solution to a web development exercise from The Odin
+                                Project, a free online curriculum for learning web development with Ruby on Rails. You
+                                can
+                                find more information about that project at <br><a
+                                    href="http://theodinproject.com.">http://theodinproject.com.</a></p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <p class="text-bold">18 Comments</p>
+                        </div>
+                        <div class="col-md-10"></div>
+                        <div class="col-md-1 mb-2">
+                            <img class="hicon"
+                                src="https://yt3.ggpht.com/ytc/AKedOLT2alJg5l9idgE79rxzSb82xEnOSfVBMZ_esIxrtzrJjgrtGwpG-Uq2Xa8aBs4h=s48-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                        </div>
+                        <div class="col-md-11 mt-2">
+                            <input class="form-control" type="text" placeholder="Add a comment..." />
+                            <div class="row mt-2 mb-2">
+                                <div class="col-md-8"></div>
+                                <div class="col-md-4" style="display: flex; justify-content: space-between;">
+                                    <button style="border: none; background-color: inherit;">CANCEL</button>
+                                    <button style="border: none; background-color: #eee;"
+                                        class="btn btn-default no-border-radius">COMMENT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-left: 1px solid silver;" class="col-md-4 vpsidebar">
+                <div class="row pb-2">
+                    <div class="col-md-12" style="display: flex; justify-content: space-around;">
+                        <span class="badge rounded-pill text-bg-dark p-2">All</span>
+                        <span style="color: black;" class="badge rounded-pill bg-jumbtron p-2">Git</span>
+                        <span style="color: black;" class="badge rounded-pill bg-jumbtron p-2">Related</span>
+                        <span style="color: black;" class="badge rounded-pill bg-jumbtron p-2">Watched</span>
+                    </div>
+                </div>
+                <div class="row video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/mENDYhfxH-o/maxresdefault.jpg" alt="" width="100%"
+                            height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>Contributing to Open Source Part II: The Real Way
+                            <br><span class="text-muted">The Odin Project</span>
+                            <br><span class="text-muted">38k views &#8226; 8 years ago</span>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/dSl_qnWO104/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>Your First Github Pull Request (in 10 mins)
+                            <br><span class="text-muted">Jackson Bates</span>
+                            <br><span class="text-muted">75k views &#8226; 5 years ago</span>
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/yzeVMecydCE/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>Complete Guide to Open Source - How to contribute
+                            <br><span class="text-muted">freeCodeCamp.org</span>
+                            <br><span class="text-muted">390k views &#8226; 1 year ago</span>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/w3jLJU7DT5E/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>What is Github?
+                            <br><span class="text-muted">Github</span>
+                            <br><span class="text-muted">1.6M views &#8226; 5 years ago</span>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/79pKwdiqcwI/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>FASTEST Way to Learn Coding and ACTUALLY Get a Job
+                            <br><span class="text-muted">Power Couple</span>
+                            <br><span class="text-muted">3.1M views &#8226; 4 months ago</span>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/tfHR1wr5OjQ/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>How to Pick an Open Source Project (step-by-step for bignners)
+                            <br><span class="text-muted">
+                                Boring SaaS Guy
+                                </span>
+                            <br><span class="text-muted">20k views &#8226; 2 months ago</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/k9WqpQp8VSU/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>How I Would Learn To Code (If I Could Start Over)
+                            <br><span class="text-muted">
+                                Namanh Kapur
+                                </span>
+                            <br><span class="text-muted">2.3M views &#8226; 8 months ago</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/hOqOj85jvn0/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>The Fastest Path Into Software Engineering - Career Change 2022
+                            <br><span class="text-muted">
+                                
+Travis Media
+                                </span>
+                            <br><span class="text-muted">132k views &#8226; 10 months ago</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-2 video-item">
+                    <div style="width: 50%;">
+                        <img src="https://img.youtube.com/vi/s9iPo9YMU70/maxresdefault.jpg" alt="" width="100%"
+                        height="100">
+                    </div>
+                    <div style="width: 50%; font-size: 12px;">
+                        <p>Zero to Full-time Programmer in 5 Steps
+                            <br><span class="text-muted">Kenny Gunderman
+                                </span>
+                            <br><span class="text-muted">1.2M views &#8226; 7 months ago</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

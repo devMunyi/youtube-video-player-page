@@ -1,0 +1,68 @@
+.no-border-radius {
+    border-radius: 0px !important;
+}
+
+.vbody {
+    margin-top: 70px !important;
+}
+
+
+.vpbody {
+    width: 100%;
+    min-height: 550px;
+    /* background-color: aqua; */
+}
+
+
+.vpsidebar {
+    width: 100%;
+    min-height: 550px;
+    /* background-color: blueviolet; */
+}
+
+.hicon {
+    border-radius: 50% !important;
+}
+
+.no-boder {
+    border: none !important;
+}
+
+.small-font {
+    font-size: 12 !important;
+}
+
+.bg-jumbtron {
+    background-color: #eee !important;
+    color: black;
+}
+
+.video-item:hover {
+    cursor: pointer;
+}
+
+.cmic {
+    margin-left: 20px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cmic:hover{
+    cursor: pointer;
+}
+
+.bell{
+    margin-left: 2px !important;
+}
+
+.mynavs{
+    display: flex !important;
+    justify-content: space-between !important;
+    /* justify-content: space-evenly !important; */
+}
